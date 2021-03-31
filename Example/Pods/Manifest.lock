@@ -1,0 +1,16 @@
+PODS:
+  - SimplePingTest (0.1.0)
+
+DEPENDENCIES:
+  - SimplePingTest (from `../`)
+
+EXTERNAL SOURCES:
+  SimplePingTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimplePingTest: d12db283c6698dac78b8cca3e32bc195c84ec0bc
+
+PODFILE CHECKSUM: 86649cfcb7265b10469a2742053ea290fae53df6
+
+COCOAPODS: 1.10.0

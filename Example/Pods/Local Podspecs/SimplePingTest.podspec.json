@@ -1,0 +1,22 @@
+{
+  "name": "SimplePingTest",
+  "version": "0.1.0",
+  "summary": "A short description of SimplePingTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dusmit/SimplePingTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dusmit": "dusmit@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/dusmit/SimplePingTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SimplePingTest/Classes/**/*"
+}

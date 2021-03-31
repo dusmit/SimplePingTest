@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B9EEE752614664F00689710 /* SimplePingTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9EEE732614664F00689710 /* SimplePingTest.h */; };
+		0B9EEE762614664F00689710 /* SimplePingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9EEE742614664F00689710 /* SimplePingTest.m */; };
+		1682E5FFEA87DAADC9FB836DF67B23E7 /* Pods-SimplePingTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A18D896822ED7DCB1F899389AF9DFBF4 /* Pods-SimplePingTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		331FC53D5C7F224CDBB52D792A56D9A5 /* SimplePingTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A52D6AAF22F487C49CD702B009D325 /* SimplePingTest-dummy.m */; };
+		411FC07523205F0D2075F09B2E33FD82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		860D68A437178FF348815177DFD7E1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8F134C016559C487BA0DAD83C0652846 /* SimplePingTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC2EFB6C2E5587287EEC751C86BC0AB /* SimplePingTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F3573854D6A20E33ED2E45B14D3160 /* Pods-SimplePingTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA348348F4DD475ABD296E1D63D6236F /* Pods-SimplePingTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2831035DA7F79D0434DD5070BBC3CFA /* Pods-SimplePingTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9255CC5C51E936496705599C2013F789 /* Pods-SimplePingTest_Tests-dummy.m */; };
+		DB70BFF2E9FA459CEC1A607F5B815D95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F6EB2F872EA206EF6A9C286A1F8A6071 /* Pods-SimplePingTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6C040C97182E77DC063B02AD3C4225 /* Pods-SimplePingTest_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01E3BB123F08D4929C0ADE0070EC4ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82E12AD47416B655E39FC2830454CCAA;
+			remoteInfo = SimplePingTest;
+		};
+		E83B59EC953F628CB1C9ACEB329CAAD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 611F640B6D029508653810D6C6A999EB;
+			remoteInfo = "Pods-SimplePingTest_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0597122F810800B972471F2D3335DCC0 /* Pods-SimplePingTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimplePingTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B9EEE732614664F00689710 /* SimplePingTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SimplePingTest.h; path = SimplePingTest/SimplePingTest.h; sourceTree = "<group>"; };
+		0B9EEE742614664F00689710 /* SimplePingTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SimplePingTest.m; path = SimplePingTest/SimplePingTest.m; sourceTree = "<group>"; };
+		0BE4681B24927A4D34D090DACDCEB692 /* Pods-SimplePingTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePingTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0FD6A628B8B1961A37B160A5F731B249 /* SimplePingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimplePingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		104AC8D85FCD324E47E145B72C7F8477 /* SimplePingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimplePingTest.debug.xcconfig; sourceTree = "<group>"; };
+		140986B5B47C7017835CA40D97176468 /* Pods-SimplePingTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePingTest_Tests-Info.plist"; sourceTree = "<group>"; };
+		1CC2EFB6C2E5587287EEC751C86BC0AB /* SimplePingTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimplePingTest-umbrella.h"; sourceTree = "<group>"; };
+		39641472A75FD665A3DAB598B32DC52F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		41FF89733DA086728DD8C90CB1F02F7B /* Pods-SimplePingTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimplePingTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		433E2BD6D18EE9584068B94809AF376B /* Pods-SimplePingTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePingTest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		60862D548AB9B483BED1BD2CF641B4BB /* Pods-SimplePingTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePingTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		63E96C03B9698E56EAA76DD8EC096753 /* SimplePingTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SimplePingTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		694CC359C954530AFBE51D920510A571 /* Pods-SimplePingTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimplePingTest_Tests.modulemap"; sourceTree = "<group>"; };
+		6D6C040C97182E77DC063B02AD3C4225 /* Pods-SimplePingTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimplePingTest_Example-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		752B3DFB8B09047BC78142ACFC854179 /* Pods-SimplePingTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePingTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CE35A14959FA6B70375B1B5E46C824B /* SimplePingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimplePingTest.release.xcconfig; sourceTree = "<group>"; };
+		858A65BE55C2E2D06A2C2457F442CBC6 /* SimplePingTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimplePingTest.modulemap; sourceTree = "<group>"; };
+		9255CC5C51E936496705599C2013F789 /* Pods-SimplePingTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimplePingTest_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A0AF521E953F8E259498DE952399E3 /* SimplePingTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimplePingTest-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFE7ED8582801B4D0966DC5B0782233 /* Pods-SimplePingTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePingTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A18D896822ED7DCB1F899389AF9DFBF4 /* Pods-SimplePingTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimplePingTest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A454472A2E8EA0D916BCBFCFDF5272DA /* Pods_SimplePingTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePingTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B398FC7C47956D781D5D700A66DCDF3D /* Pods-SimplePingTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimplePingTest_Example.modulemap"; sourceTree = "<group>"; };
+		C2B320EB6132D74A5665298200885606 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C3944FD947E0E1C31BCA919B2258B5F4 /* Pods_SimplePingTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePingTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C517DDDCD455C18CAFC99A0BEDAF7C95 /* Pods-SimplePingTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePingTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA348348F4DD475ABD296E1D63D6236F /* Pods-SimplePingTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimplePingTest_Example-umbrella.h"; sourceTree = "<group>"; };
+		CA4A99B8771D2188BC609CDD1C5D5B67 /* Pods-SimplePingTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimplePingTest_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E0A52D6AAF22F487C49CD702B009D325 /* SimplePingTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimplePingTest-dummy.m"; sourceTree = "<group>"; };
+		E23A56F32EAA06CA14D14841B80B7EB6 /* SimplePingTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimplePingTest-Info.plist"; sourceTree = "<group>"; };
+		E988FBE1390B2D03E976F7FFB5B167A1 /* Pods-SimplePingTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePingTest_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB9ABCEDE701439FAB9511AF005FDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860D68A437178FF348815177DFD7E1A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0C129A4E3ADAD712B872D6E2B6A8A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411FC07523205F0D2075F09B2E33FD82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22EA86CFC9E13D3B9B66E4A39507CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB70BFF2E9FA459CEC1A607F5B815D95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E44B56CC794E1673AFE3ECCE9440469 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				39641472A75FD665A3DAB598B32DC52F /* LICENSE */,
+				C2B320EB6132D74A5665298200885606 /* README.md */,
+				63E96C03B9698E56EAA76DD8EC096753 /* SimplePingTest.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1089AC283628E777EA047E9F5C1341FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				858A65BE55C2E2D06A2C2457F442CBC6 /* SimplePingTest.modulemap */,
+				E0A52D6AAF22F487C49CD702B009D325 /* SimplePingTest-dummy.m */,
+				E23A56F32EAA06CA14D14841B80B7EB6 /* SimplePingTest-Info.plist */,
+				93A0AF521E953F8E259498DE952399E3 /* SimplePingTest-prefix.pch */,
+				1CC2EFB6C2E5587287EEC751C86BC0AB /* SimplePingTest-umbrella.h */,
+				104AC8D85FCD324E47E145B72C7F8477 /* SimplePingTest.debug.xcconfig */,
+				7CE35A14959FA6B70375B1B5E46C824B /* SimplePingTest.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimplePingTest";
+			sourceTree = "<group>";
+		};
+		37AF678954B799DF72EF80D4AC670934 /* SimplePingTest */ = {
+			isa = PBXGroup;
+			children = (
+				0E44B56CC794E1673AFE3ECCE9440469 /* Pod */,
+				1089AC283628E777EA047E9F5C1341FC /* Support Files */,
+				0B9EEE732614664F00689710 /* SimplePingTest.h */,
+				0B9EEE742614664F00689710 /* SimplePingTest.m */,
+			);
+			name = SimplePingTest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F7C2E63156F741524CF1B8B6E68F1D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3944FD947E0E1C31BCA919B2258B5F4 /* Pods_SimplePingTest_Example.framework */,
+				A454472A2E8EA0D916BCBFCFDF5272DA /* Pods_SimplePingTest_Tests.framework */,
+				0FD6A628B8B1961A37B160A5F731B249 /* SimplePingTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		687767A73213478BEAA45722AAFD95B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37AF678954B799DF72EF80D4AC670934 /* SimplePingTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7229D99B75003B082AD6F001C5757925 /* Pods-SimplePingTest_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B398FC7C47956D781D5D700A66DCDF3D /* Pods-SimplePingTest_Example.modulemap */,
+				0597122F810800B972471F2D3335DCC0 /* Pods-SimplePingTest_Example-acknowledgements.markdown */,
+				752B3DFB8B09047BC78142ACFC854179 /* Pods-SimplePingTest_Example-acknowledgements.plist */,
+				6D6C040C97182E77DC063B02AD3C4225 /* Pods-SimplePingTest_Example-dummy.m */,
+				CA4A99B8771D2188BC609CDD1C5D5B67 /* Pods-SimplePingTest_Example-frameworks.sh */,
+				E988FBE1390B2D03E976F7FFB5B167A1 /* Pods-SimplePingTest_Example-Info.plist */,
+				CA348348F4DD475ABD296E1D63D6236F /* Pods-SimplePingTest_Example-umbrella.h */,
+				0BE4681B24927A4D34D090DACDCEB692 /* Pods-SimplePingTest_Example.debug.xcconfig */,
+				433E2BD6D18EE9584068B94809AF376B /* Pods-SimplePingTest_Example.release.xcconfig */,
+			);
+			name = "Pods-SimplePingTest_Example";
+			path = "Target Support Files/Pods-SimplePingTest_Example";
+			sourceTree = "<group>";
+		};
+		7861ABE4326A2DC6E431806B6871DABC /* Pods-SimplePingTest_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				694CC359C954530AFBE51D920510A571 /* Pods-SimplePingTest_Tests.modulemap */,
+				41FF89733DA086728DD8C90CB1F02F7B /* Pods-SimplePingTest_Tests-acknowledgements.markdown */,
+				C517DDDCD455C18CAFC99A0BEDAF7C95 /* Pods-SimplePingTest_Tests-acknowledgements.plist */,
+				9255CC5C51E936496705599C2013F789 /* Pods-SimplePingTest_Tests-dummy.m */,
+				140986B5B47C7017835CA40D97176468 /* Pods-SimplePingTest_Tests-Info.plist */,
+				A18D896822ED7DCB1F899389AF9DFBF4 /* Pods-SimplePingTest_Tests-umbrella.h */,
+				60862D548AB9B483BED1BD2CF641B4BB /* Pods-SimplePingTest_Tests.debug.xcconfig */,
+				9DFE7ED8582801B4D0966DC5B0782233 /* Pods-SimplePingTest_Tests.release.xcconfig */,
+			);
+			name = "Pods-SimplePingTest_Tests";
+			path = "Target Support Files/Pods-SimplePingTest_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				687767A73213478BEAA45722AAFD95B2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5F7C2E63156F741524CF1B8B6E68F1D5 /* Products */,
+				D1A4886A5636DB34B23CF41247046806 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A4886A5636DB34B23CF41247046806 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7229D99B75003B082AD6F001C5757925 /* Pods-SimplePingTest_Example */,
+				7861ABE4326A2DC6E431806B6871DABC /* Pods-SimplePingTest_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D651928D946CFA3DBF0A592BB6A8858 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9EEE752614664F00689710 /* SimplePingTest.h in Headers */,
+				8F134C016559C487BA0DAD83C0652846 /* SimplePingTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656C9ECFBB6D7915B277C710C9D4AD92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F3573854D6A20E33ED2E45B14D3160 /* Pods-SimplePingTest_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88CF184423822DEB4E87FDAE33E1850 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1682E5FFEA87DAADC9FB836DF67B23E7 /* Pods-SimplePingTest_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2DED931B4365530660D747E907A9830A /* Pods-SimplePingTest_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2CDF7279387131CED91F7718A0FE6D /* Build configuration list for PBXNativeTarget "Pods-SimplePingTest_Tests" */;
+			buildPhases = (
+				B88CF184423822DEB4E87FDAE33E1850 /* Headers */,
+				ED1F6EC65D5A4631125F7355CA5CF9DC /* Sources */,
+				7BB9ABCEDE701439FAB9511AF005FDD8 /* Frameworks */,
+				3F4D22C3D35DC818E30E55BD468B813B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				084DFB8971157C33224D3CB339EC5E2E /* PBXTargetDependency */,
+			);
+			name = "Pods-SimplePingTest_Tests";
+			productName = "Pods-SimplePingTest_Tests";
+			productReference = A454472A2E8EA0D916BCBFCFDF5272DA /* Pods_SimplePingTest_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		611F640B6D029508653810D6C6A999EB /* Pods-SimplePingTest_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5336399D28E035BF0AA6AE4CC1E0C05 /* Build configuration list for PBXNativeTarget "Pods-SimplePingTest_Example" */;
+			buildPhases = (
+				656C9ECFBB6D7915B277C710C9D4AD92 /* Headers */,
+				3444B69BDB8DDDED17668A7540EC6215 /* Sources */,
+				BA0C129A4E3ADAD712B872D6E2B6A8A0 /* Frameworks */,
+				A87E58A2A204896546BF2F310B79CCBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2274BE7F02EEEA388A17CBC6A53765CD /* PBXTargetDependency */,
+			);
+			name = "Pods-SimplePingTest_Example";
+			productName = "Pods-SimplePingTest_Example";
+			productReference = C3944FD947E0E1C31BCA919B2258B5F4 /* Pods_SimplePingTest_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82E12AD47416B655E39FC2830454CCAA /* SimplePingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8C20C179E12C8CF145C67DC171EC44 /* Build configuration list for PBXNativeTarget "SimplePingTest" */;
+			buildPhases = (
+				3D651928D946CFA3DBF0A592BB6A8858 /* Headers */,
+				EA7B0A879D7849E72F3EAEEC29E54637 /* Sources */,
+				E22EA86CFC9E13D3B9B66E4A39507CC8 /* Frameworks */,
+				1146D265489C2A5B386D9103F5E84EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePingTest;
+			productName = SimplePingTest;
+			productReference = 0FD6A628B8B1961A37B160A5F731B249 /* SimplePingTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5F7C2E63156F741524CF1B8B6E68F1D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				611F640B6D029508653810D6C6A999EB /* Pods-SimplePingTest_Example */,
+				2DED931B4365530660D747E907A9830A /* Pods-SimplePingTest_Tests */,
+				82E12AD47416B655E39FC2830454CCAA /* SimplePingTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1146D265489C2A5B386D9103F5E84EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4D22C3D35DC818E30E55BD468B813B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87E58A2A204896546BF2F310B79CCBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3444B69BDB8DDDED17668A7540EC6215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EB2F872EA206EF6A9C286A1F8A6071 /* Pods-SimplePingTest_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7B0A879D7849E72F3EAEEC29E54637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9EEE762614664F00689710 /* SimplePingTest.m in Sources */,
+				331FC53D5C7F224CDBB52D792A56D9A5 /* SimplePingTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1F6EC65D5A4631125F7355CA5CF9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2831035DA7F79D0434DD5070BBC3CFA /* Pods-SimplePingTest_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		084DFB8971157C33224D3CB339EC5E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SimplePingTest_Example";
+			target = 611F640B6D029508653810D6C6A999EB /* Pods-SimplePingTest_Example */;
+			targetProxy = E83B59EC953F628CB1C9ACEB329CAAD5 /* PBXContainerItemProxy */;
+		};
+		2274BE7F02EEEA388A17CBC6A53765CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimplePingTest;
+			target = 82E12AD47416B655E39FC2830454CCAA /* SimplePingTest */;
+			targetProxy = 01E3BB123F08D4929C0ADE0070EC4ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D6A78A8C5C969DAE9CB5EFDB2C17D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104AC8D85FCD324E47E145B72C7F8477 /* SimplePingTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimplePingTest/SimplePingTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimplePingTest/SimplePingTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimplePingTest/SimplePingTest.modulemap";
+				PRODUCT_MODULE_NAME = SimplePingTest;
+				PRODUCT_NAME = SimplePingTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E64F22A9C5ACE12AC24EEE7E8037E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE4681B24927A4D34D090DACDCEB692 /* Pods-SimplePingTest_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimplePingTest_Example/Pods-SimplePingTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimplePingTest_Example/Pods-SimplePingTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7475268909D11AF460A91288E2916575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433E2BD6D18EE9584068B94809AF376B /* Pods-SimplePingTest_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimplePingTest_Example/Pods-SimplePingTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimplePingTest_Example/Pods-SimplePingTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8625D2B8F5E9B1E020381A9DAE3BB5B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60862D548AB9B483BED1BD2CF641B4BB /* Pods-SimplePingTest_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimplePingTest_Tests/Pods-SimplePingTest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimplePingTest_Tests/Pods-SimplePingTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1592183A4A50CF01CB3BC450E57AEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFE7ED8582801B4D0966DC5B0782233 /* Pods-SimplePingTest_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimplePingTest_Tests/Pods-SimplePingTest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimplePingTest_Tests/Pods-SimplePingTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF877CA3A535254A7916D344274CBCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE35A14959FA6B70375B1B5E46C824B /* SimplePingTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimplePingTest/SimplePingTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimplePingTest/SimplePingTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimplePingTest/SimplePingTest.modulemap";
+				PRODUCT_MODULE_NAME = SimplePingTest;
+				PRODUCT_NAME = SimplePingTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C8C20C179E12C8CF145C67DC171EC44 /* Build configuration list for PBXNativeTarget "SimplePingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6A78A8C5C969DAE9CB5EFDB2C17D34 /* Debug */,
+				CF877CA3A535254A7916D344274CBCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2CDF7279387131CED91F7718A0FE6D /* Build configuration list for PBXNativeTarget "Pods-SimplePingTest_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8625D2B8F5E9B1E020381A9DAE3BB5B6 /* Debug */,
+				A1592183A4A50CF01CB3BC450E57AEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5336399D28E035BF0AA6AE4CC1E0C05 /* Build configuration list for PBXNativeTarget "Pods-SimplePingTest_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E64F22A9C5ACE12AC24EEE7E8037E5E /* Debug */,
+				7475268909D11AF460A91288E2916575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

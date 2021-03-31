@@ -1,0 +1,6 @@
+framework module SimplePingTest {
+  umbrella header "SimplePingTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
