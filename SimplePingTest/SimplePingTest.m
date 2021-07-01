@@ -11,6 +11,8 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <errno.h>
+#include <resolv.h>
+#include <arpa/inet.h>
 
 #pragma mark * IPv4 and ICMPv4 On-The-Wire Format
 
@@ -777,6 +779,23 @@ static void HostResolveCallback(CFHostRef theHost, CFHostInfoType typeInfo, cons
     // re-resolve the host name.
     
     self.hostAddress = NULL;
+}
+
++ (NSArray *)dnsAddress {
+    
+    res_state res = malloc(sizeof(struct __res_state));
+    NSMutableArray *dnsArray = @[].mutableCopy;
+    if (res_ninit(res) == 0) {
+        for (int i = 0; i < res->nscount; i++) {
+            NSString *s = [NSString stringWithUTF8String : inet_ntoa(res->nsaddr_list[i].sin_addr)];
+            [dnsArray addObject:s];
+        }
+    } else {
+        // NSLog(@"%@",@" res_init result != 0");
+    }
+    res_ndestroy(res);
+    free(res);
+    return [[NSSet setWithArray: dnsArray] allObjects];
 }
 
 @end

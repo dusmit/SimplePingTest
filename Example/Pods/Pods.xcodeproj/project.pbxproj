@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B9EEE752614664F00689710 /* SimplePingTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9EEE732614664F00689710 /* SimplePingTest.h */; };
-		0B9EEE762614664F00689710 /* SimplePingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9EEE742614664F00689710 /* SimplePingTest.m */; };
+		0202BAA0D07C8DFD097589B1155833DB /* SimplePingTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 758ECC15A36197BE77F8D67B638439B9 /* SimplePingTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E7024320EC7FEC0A447051EC14C4D76 /* SimplePingTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49238074ACBF9E8A6F87677ACA32D945 /* SimplePingTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1682E5FFEA87DAADC9FB836DF67B23E7 /* Pods-SimplePingTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A18D896822ED7DCB1F899389AF9DFBF4 /* Pods-SimplePingTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		331FC53D5C7F224CDBB52D792A56D9A5 /* SimplePingTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A52D6AAF22F487C49CD702B009D325 /* SimplePingTest-dummy.m */; };
 		411FC07523205F0D2075F09B2E33FD82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6C486B2539293AEB7496B2DA5386228D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		72F03563CB94D8CB64A6AE7BA4404998 /* SimplePingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2165C3EB61D9BEB8243A0905C52F3 /* SimplePingTest.m */; };
+		7BD4C3397751886B9A5D8D9C03866821 /* SimplePingTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C742A9F65C423A85C42468CA5D565 /* SimplePingTest-dummy.m */; };
 		860D68A437178FF348815177DFD7E1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8F134C016559C487BA0DAD83C0652846 /* SimplePingTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC2EFB6C2E5587287EEC751C86BC0AB /* SimplePingTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90F3573854D6A20E33ED2E45B14D3160 /* Pods-SimplePingTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA348348F4DD475ABD296E1D63D6236F /* Pods-SimplePingTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2831035DA7F79D0434DD5070BBC3CFA /* Pods-SimplePingTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9255CC5C51E936496705599C2013F789 /* Pods-SimplePingTest_Tests-dummy.m */; };
-		DB70BFF2E9FA459CEC1A607F5B815D95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F6EB2F872EA206EF6A9C286A1F8A6071 /* Pods-SimplePingTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6C040C97182E77DC063B02AD3C4225 /* Pods-SimplePingTest_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01E3BB123F08D4929C0ADE0070EC4ACE /* PBXContainerItemProxy */ = {
+		06D33A50F73AC78DCC3CC8A5DB8757DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82E12AD47416B655E39FC2830454CCAA;
 			remoteInfo = SimplePingTest;
 		};
-		E83B59EC953F628CB1C9ACEB329CAAD5 /* PBXContainerItemProxy */ = {
+		8F6B6B0CA68A851DECD9E7B0D95E6D26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,42 +39,50 @@
 
 /* Begin PBXFileReference section */
 		0597122F810800B972471F2D3335DCC0 /* Pods-SimplePingTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimplePingTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0B9EEE732614664F00689710 /* SimplePingTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SimplePingTest.h; path = SimplePingTest/SimplePingTest.h; sourceTree = "<group>"; };
-		0B9EEE742614664F00689710 /* SimplePingTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SimplePingTest.m; path = SimplePingTest/SimplePingTest.m; sourceTree = "<group>"; };
 		0BE4681B24927A4D34D090DACDCEB692 /* Pods-SimplePingTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePingTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0FD6A628B8B1961A37B160A5F731B249 /* SimplePingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimplePingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		104AC8D85FCD324E47E145B72C7F8477 /* SimplePingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimplePingTest.debug.xcconfig; sourceTree = "<group>"; };
+		0FD6A628B8B1961A37B160A5F731B249 /* SimplePingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimplePingTest.framework; path = SimplePingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		140986B5B47C7017835CA40D97176468 /* Pods-SimplePingTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePingTest_Tests-Info.plist"; sourceTree = "<group>"; };
-		1CC2EFB6C2E5587287EEC751C86BC0AB /* SimplePingTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimplePingTest-umbrella.h"; sourceTree = "<group>"; };
-		39641472A75FD665A3DAB598B32DC52F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1C2C742A9F65C423A85C42468CA5D565 /* SimplePingTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimplePingTest-dummy.m"; sourceTree = "<group>"; };
+		30E8F2AA673E86550B5F99CC23636569 /* SimplePingTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimplePingTest-Info.plist"; sourceTree = "<group>"; };
 		41FF89733DA086728DD8C90CB1F02F7B /* Pods-SimplePingTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimplePingTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		433E2BD6D18EE9584068B94809AF376B /* Pods-SimplePingTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePingTest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		49238074ACBF9E8A6F87677ACA32D945 /* SimplePingTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimplePingTest-umbrella.h"; sourceTree = "<group>"; };
+		52B78039F496F17090A757261C30C3EC /* SimplePingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimplePingTest.debug.xcconfig; sourceTree = "<group>"; };
 		60862D548AB9B483BED1BD2CF641B4BB /* Pods-SimplePingTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePingTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		63E96C03B9698E56EAA76DD8EC096753 /* SimplePingTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SimplePingTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		61D1DABAA7C09FC79788F91C64A221AE /* SimplePingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimplePingTest.release.xcconfig; sourceTree = "<group>"; };
 		694CC359C954530AFBE51D920510A571 /* Pods-SimplePingTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimplePingTest_Tests.modulemap"; sourceTree = "<group>"; };
 		6D6C040C97182E77DC063B02AD3C4225 /* Pods-SimplePingTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimplePingTest_Example-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		752B3DFB8B09047BC78142ACFC854179 /* Pods-SimplePingTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePingTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7CE35A14959FA6B70375B1B5E46C824B /* SimplePingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimplePingTest.release.xcconfig; sourceTree = "<group>"; };
-		858A65BE55C2E2D06A2C2457F442CBC6 /* SimplePingTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimplePingTest.modulemap; sourceTree = "<group>"; };
+		756EE8CCB49EE471B46400AD7BE2B8B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		758ECC15A36197BE77F8D67B638439B9 /* SimplePingTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimplePingTest.h; path = SimplePingTest/SimplePingTest.h; sourceTree = "<group>"; };
 		9255CC5C51E936496705599C2013F789 /* Pods-SimplePingTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimplePingTest_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A0AF521E953F8E259498DE952399E3 /* SimplePingTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimplePingTest-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DFE7ED8582801B4D0966DC5B0782233 /* Pods-SimplePingTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePingTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9E3A222A1AFE927BF0162DAF98963780 /* SimplePingTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimplePingTest-prefix.pch"; sourceTree = "<group>"; };
 		A18D896822ED7DCB1F899389AF9DFBF4 /* Pods-SimplePingTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimplePingTest_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A454472A2E8EA0D916BCBFCFDF5272DA /* Pods_SimplePingTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePingTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A454472A2E8EA0D916BCBFCFDF5272DA /* Pods_SimplePingTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimplePingTest_Tests.framework; path = "Pods-SimplePingTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B855542377EAD452EC0AD07985F10D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B398FC7C47956D781D5D700A66DCDF3D /* Pods-SimplePingTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimplePingTest_Example.modulemap"; sourceTree = "<group>"; };
-		C2B320EB6132D74A5665298200885606 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C3944FD947E0E1C31BCA919B2258B5F4 /* Pods_SimplePingTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePingTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBF195D7257826D0E43EE0227B87013 /* SimplePingTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimplePingTest.modulemap; sourceTree = "<group>"; };
+		C3944FD947E0E1C31BCA919B2258B5F4 /* Pods_SimplePingTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimplePingTest_Example.framework; path = "Pods-SimplePingTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C517DDDCD455C18CAFC99A0BEDAF7C95 /* Pods-SimplePingTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePingTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CA348348F4DD475ABD296E1D63D6236F /* Pods-SimplePingTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimplePingTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		CA4A99B8771D2188BC609CDD1C5D5B67 /* Pods-SimplePingTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimplePingTest_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E0A52D6AAF22F487C49CD702B009D325 /* SimplePingTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimplePingTest-dummy.m"; sourceTree = "<group>"; };
-		E23A56F32EAA06CA14D14841B80B7EB6 /* SimplePingTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimplePingTest-Info.plist"; sourceTree = "<group>"; };
+		D74850CD09D07E3589F64693B85A4604 /* SimplePingTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SimplePingTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E4D2165C3EB61D9BEB8243A0905C52F3 /* SimplePingTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimplePingTest.m; path = SimplePingTest/SimplePingTest.m; sourceTree = "<group>"; };
 		E988FBE1390B2D03E976F7FFB5B167A1 /* Pods-SimplePingTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePingTest_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		50E8BDD2A831118755189DD1D5C1F1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C486B2539293AEB7496B2DA5386228D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BB9ABCEDE701439FAB9511AF005FDD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,49 +99,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E22EA86CFC9E13D3B9B66E4A39507CC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB70BFF2E9FA459CEC1A607F5B815D95 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E44B56CC794E1673AFE3ECCE9440469 /* Pod */ = {
+		44E94C08E6CEA1E30FB113C93D354DB8 /* SimplePingTest */ = {
 			isa = PBXGroup;
 			children = (
-				39641472A75FD665A3DAB598B32DC52F /* LICENSE */,
-				C2B320EB6132D74A5665298200885606 /* README.md */,
-				63E96C03B9698E56EAA76DD8EC096753 /* SimplePingTest.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1089AC283628E777EA047E9F5C1341FC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				858A65BE55C2E2D06A2C2457F442CBC6 /* SimplePingTest.modulemap */,
-				E0A52D6AAF22F487C49CD702B009D325 /* SimplePingTest-dummy.m */,
-				E23A56F32EAA06CA14D14841B80B7EB6 /* SimplePingTest-Info.plist */,
-				93A0AF521E953F8E259498DE952399E3 /* SimplePingTest-prefix.pch */,
-				1CC2EFB6C2E5587287EEC751C86BC0AB /* SimplePingTest-umbrella.h */,
-				104AC8D85FCD324E47E145B72C7F8477 /* SimplePingTest.debug.xcconfig */,
-				7CE35A14959FA6B70375B1B5E46C824B /* SimplePingTest.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SimplePingTest";
-			sourceTree = "<group>";
-		};
-		37AF678954B799DF72EF80D4AC670934 /* SimplePingTest */ = {
-			isa = PBXGroup;
-			children = (
-				0E44B56CC794E1673AFE3ECCE9440469 /* Pod */,
-				1089AC283628E777EA047E9F5C1341FC /* Support Files */,
-				0B9EEE732614664F00689710 /* SimplePingTest.h */,
-				0B9EEE742614664F00689710 /* SimplePingTest.m */,
+				758ECC15A36197BE77F8D67B638439B9 /* SimplePingTest.h */,
+				E4D2165C3EB61D9BEB8243A0905C52F3 /* SimplePingTest.m */,
+				7018AA9285AD97D162B55400AC75C4A7 /* Pod */,
+				7399EECDE2F3B1CFC8D7F6DF2066CE44 /* Support Files */,
 			);
 			name = SimplePingTest;
 			path = ../..;
@@ -157,12 +132,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		687767A73213478BEAA45722AAFD95B2 /* Development Pods */ = {
+		7018AA9285AD97D162B55400AC75C4A7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				37AF678954B799DF72EF80D4AC670934 /* SimplePingTest */,
+				B0B855542377EAD452EC0AD07985F10D /* LICENSE */,
+				756EE8CCB49EE471B46400AD7BE2B8B8 /* README.md */,
+				D74850CD09D07E3589F64693B85A4604 /* SimplePingTest.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7229D99B75003B082AD6F001C5757925 /* Pods-SimplePingTest_Example */ = {
@@ -182,6 +159,21 @@
 			path = "Target Support Files/Pods-SimplePingTest_Example";
 			sourceTree = "<group>";
 		};
+		7399EECDE2F3B1CFC8D7F6DF2066CE44 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEBF195D7257826D0E43EE0227B87013 /* SimplePingTest.modulemap */,
+				1C2C742A9F65C423A85C42468CA5D565 /* SimplePingTest-dummy.m */,
+				30E8F2AA673E86550B5F99CC23636569 /* SimplePingTest-Info.plist */,
+				9E3A222A1AFE927BF0162DAF98963780 /* SimplePingTest-prefix.pch */,
+				49238074ACBF9E8A6F87677ACA32D945 /* SimplePingTest-umbrella.h */,
+				52B78039F496F17090A757261C30C3EC /* SimplePingTest.debug.xcconfig */,
+				61D1DABAA7C09FC79788F91C64A221AE /* SimplePingTest.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimplePingTest";
+			sourceTree = "<group>";
+		};
 		7861ABE4326A2DC6E431806B6871DABC /* Pods-SimplePingTest_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,11 +190,19 @@
 			path = "Target Support Files/Pods-SimplePingTest_Tests";
 			sourceTree = "<group>";
 		};
+		BBFDC33AF09CD546D4AFEA4F8596BCA3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44E94C08E6CEA1E30FB113C93D354DB8 /* SimplePingTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				687767A73213478BEAA45722AAFD95B2 /* Development Pods */,
+				BBFDC33AF09CD546D4AFEA4F8596BCA3 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				5F7C2E63156F741524CF1B8B6E68F1D5 /* Products */,
 				D1A4886A5636DB34B23CF41247046806 /* Targets Support Files */,
@@ -229,20 +229,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3D651928D946CFA3DBF0A592BB6A8858 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B9EEE752614664F00689710 /* SimplePingTest.h in Headers */,
-				8F134C016559C487BA0DAD83C0652846 /* SimplePingTest-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		656C9ECFBB6D7915B277C710C9D4AD92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				90F3573854D6A20E33ED2E45B14D3160 /* Pods-SimplePingTest_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E58B9086703C48200D779CEA2964313 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7024320EC7FEC0A447051EC14C4D76 /* SimplePingTest-umbrella.h in Headers */,
+				0202BAA0D07C8DFD097589B1155833DB /* SimplePingTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				084DFB8971157C33224D3CB339EC5E2E /* PBXTargetDependency */,
+				F9D1A1F461FD0BE438300D5E7209B65E /* PBXTargetDependency */,
 			);
 			name = "Pods-SimplePingTest_Tests";
 			productName = "Pods-SimplePingTest_Tests";
@@ -288,7 +288,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2274BE7F02EEEA388A17CBC6A53765CD /* PBXTargetDependency */,
+				18CB8185B5CF2065D4C8B997AEB9FF55 /* PBXTargetDependency */,
 			);
 			name = "Pods-SimplePingTest_Example";
 			productName = "Pods-SimplePingTest_Example";
@@ -297,12 +297,12 @@
 		};
 		82E12AD47416B655E39FC2830454CCAA /* SimplePingTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C8C20C179E12C8CF145C67DC171EC44 /* Build configuration list for PBXNativeTarget "SimplePingTest" */;
+			buildConfigurationList = 6F2BBF3B92FD2C12A1CFAE14BC3EE5F0 /* Build configuration list for PBXNativeTarget "SimplePingTest" */;
 			buildPhases = (
-				3D651928D946CFA3DBF0A592BB6A8858 /* Headers */,
-				EA7B0A879D7849E72F3EAEEC29E54637 /* Sources */,
-				E22EA86CFC9E13D3B9B66E4A39507CC8 /* Frameworks */,
-				1146D265489C2A5B386D9103F5E84EA7 /* Resources */,
+				6E58B9086703C48200D779CEA2964313 /* Headers */,
+				68E55F8B73181C788876A1FF7592CF7D /* Sources */,
+				50E8BDD2A831118755189DD1D5C1F1B0 /* Frameworks */,
+				2A9359378635478DC4698DB375BD198D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,7 +343,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1146D265489C2A5B386D9103F5E84EA7 /* Resources */ = {
+		2A9359378635478DC4698DB375BD198D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,12 +375,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA7B0A879D7849E72F3EAEEC29E54637 /* Sources */ = {
+		68E55F8B73181C788876A1FF7592CF7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B9EEE762614664F00689710 /* SimplePingTest.m in Sources */,
-				331FC53D5C7F224CDBB52D792A56D9A5 /* SimplePingTest-dummy.m in Sources */,
+				7BD4C3397751886B9A5D8D9C03866821 /* SimplePingTest-dummy.m in Sources */,
+				72F03563CB94D8CB64A6AE7BA4404998 /* SimplePingTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,17 +395,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		084DFB8971157C33224D3CB339EC5E2E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SimplePingTest_Example";
-			target = 611F640B6D029508653810D6C6A999EB /* Pods-SimplePingTest_Example */;
-			targetProxy = E83B59EC953F628CB1C9ACEB329CAAD5 /* PBXContainerItemProxy */;
-		};
-		2274BE7F02EEEA388A17CBC6A53765CD /* PBXTargetDependency */ = {
+		18CB8185B5CF2065D4C8B997AEB9FF55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimplePingTest;
 			target = 82E12AD47416B655E39FC2830454CCAA /* SimplePingTest */;
-			targetProxy = 01E3BB123F08D4929C0ADE0070EC4ACE /* PBXContainerItemProxy */;
+			targetProxy = 06D33A50F73AC78DCC3CC8A5DB8757DD /* PBXContainerItemProxy */;
+		};
+		F9D1A1F461FD0BE438300D5E7209B65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SimplePingTest_Example";
+			target = 611F640B6D029508653810D6C6A999EB /* Pods-SimplePingTest_Example */;
+			targetProxy = 8F6B6B0CA68A851DECD9E7B0D95E6D26 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -473,36 +473,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		5D6A78A8C5C969DAE9CB5EFDB2C17D34 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 104AC8D85FCD324E47E145B72C7F8477 /* SimplePingTest.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SimplePingTest/SimplePingTest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimplePingTest/SimplePingTest-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimplePingTest/SimplePingTest.modulemap";
-				PRODUCT_MODULE_NAME = SimplePingTest;
-				PRODUCT_NAME = SimplePingTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -603,6 +573,37 @@
 			};
 			name = Debug;
 		};
+		9AEBF3C0C3CC0959419CEE8E99136504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D1DABAA7C09FC79788F91C64A221AE /* SimplePingTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimplePingTest/SimplePingTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimplePingTest/SimplePingTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimplePingTest/SimplePingTest.modulemap";
+				PRODUCT_MODULE_NAME = SimplePingTest;
+				PRODUCT_NAME = SimplePingTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A1592183A4A50CF01CB3BC450E57AEEF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DFE7ED8582801B4D0966DC5B0782233 /* Pods-SimplePingTest_Tests.release.xcconfig */;
@@ -635,6 +636,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C59B75144C4FFE3F0F619C3F6E48EB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B78039F496F17090A757261C30C3EC /* SimplePingTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimplePingTest/SimplePingTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimplePingTest/SimplePingTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimplePingTest/SimplePingTest.modulemap";
+				PRODUCT_MODULE_NAME = SimplePingTest;
+				PRODUCT_NAME = SimplePingTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -691,40 +722,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		CF877CA3A535254A7916D344274CBCC5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CE35A14959FA6B70375B1B5E46C824B /* SimplePingTest.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SimplePingTest/SimplePingTest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimplePingTest/SimplePingTest-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimplePingTest/SimplePingTest.modulemap";
-				PRODUCT_MODULE_NAME = SimplePingTest;
-				PRODUCT_NAME = SimplePingTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -740,11 +741,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C8C20C179E12C8CF145C67DC171EC44 /* Build configuration list for PBXNativeTarget "SimplePingTest" */ = {
+		6F2BBF3B92FD2C12A1CFAE14BC3EE5F0 /* Build configuration list for PBXNativeTarget "SimplePingTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D6A78A8C5C969DAE9CB5EFDB2C17D34 /* Debug */,
-				CF877CA3A535254A7916D344274CBCC5 /* Release */,
+				C59B75144C4FFE3F0F619C3F6E48EB2D /* Debug */,
+				9AEBF3C0C3CC0959419CEE8E99136504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

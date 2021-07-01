@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "SimplePingTest.h"
 
 FOUNDATION_EXPORT double SimplePingTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char SimplePingTestVersionString[];

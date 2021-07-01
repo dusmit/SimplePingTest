@@ -132,6 +132,8 @@ typedef NS_ENUM(NSInteger, SimplePingTestAddressStyle) {
 
 - (void)stop;
 
++ (NSArray *)dnsAddress;
+
 @end
 
 /*! A delegate protocol for the SimplePing class.
